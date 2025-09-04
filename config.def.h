@@ -81,7 +81,8 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = open_bookmarks_cmd } },
-	{ MODKEY|ShiftMask,             XK_f,      spawn,          {.v = start_firefox } },
+	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
+	{ MODKEY|ShiftMask,             XK_w,      spawn,          {.v = start_firefox } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
