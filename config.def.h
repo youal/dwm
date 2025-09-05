@@ -44,6 +44,8 @@ static const Rule rules[] = {
 	{ "Gimp",      	 NULL,      	 NULL, 	 0,        	 1,         	 -1 },
 	{ "Firefox",   	 NULL,      	 NULL, 	 1 << 8,   	 0,         	 -1 },
 	{ "Navigator", 	 "firefox", 	 NULL, 	 1 << 8,   	 0,         	 -1 },
+	{ "mpvk", 	 "mpv", 	 NULL, 	 1 << 7,   	 0,         	 -1 },
+	{ "Zathura", 	 "org.pwmt.zathura", 	 NULL, 	 1 << 2,   	 0,         	 -1 },
 };
 
 /* layout(s) */
